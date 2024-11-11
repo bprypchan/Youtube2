@@ -1,0 +1,324 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: "Montserrat";
+    font-size: 1rem;
+}
+
+.layout{
+    margin: 0.5rem 1rem 0rem 1rem;
+    /*border: 1px solid black;*/   
+}
+
+
+.layout__nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__icons1{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+
+.icons1__img--1{
+    height: 3.5rem;
+    height: 3.5rem;
+    cursor: pointer;
+}
+
+.icons1__img--2{
+    cursor: pointer;
+}
+
+.layout__icons2{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.icons2__icons{
+    display: flex;
+   
+}
+
+.icons2__input{
+    outline: none;
+    border: none;
+    border: 1px solid #CCCCCC;
+    border-radius: 2rem 0rem 0rem 2rem;
+    height: 4.2rem;
+    width: 50rem;
+    padding: 1.6rem 1.6rem;
+    font-size: 1.52rem;
+    color: black;
+}
+
+.icons2__icons .fa-solid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CCCCCC;
+    border-radius: 0rem 2rem 2rem 0rem; 
+    height: 4.2rem;
+    width: 7rem;
+    padding: 1.6rem 1.6rem;
+    background-color: #F8F8F8;
+    transition: all 300ms ease;
+    cursor: pointer;
+    
+}
+
+.icons2__icons .fa-solid:hover{
+    background-color: #F0F0F0;
+}
+
+
+.fa-magnifying-glass{
+    font-size: 1.7rem;
+    color: black;
+}
+
+.icons2__icons > ::placeholder{
+    font-size: 1.52rem;
+    font-weight: 500;
+}
+
+.layout__icons2 .fa-microphone{
+    background-color: #F2F2F2;
+    width: 4.2rem;
+    height: 4.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 100%;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.layout__icons2 .fa-microphone:hover{
+    background-color: #c7c7c7;
+    
+}
+
+.layout__icons3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.layout__icons3 .fa-regular{
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+
+.layout__icons3 img{
+    cursor: pointer;
+}
+
+.layout__icons3 p{
+    margin-right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #465A65;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.layout__content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.layout__aside{
+    width: 16%;
+    /*border: 1px solid black;*/
+    margin-right: 1rem;
+    font-weight: 500;
+
+}
+
+.aside__section{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+    height: 4.5rem;
+    cursor: pointer;
+}
+
+.aside__section--1{
+    background-color: #F2F2F2;
+    border-radius: 1rem; 
+    transition: 300ms all ease;  
+}
+
+.aside__section--1:hover{
+    background-color: #c7c7c7;  
+}
+
+.aside__section--1 section{
+    margin-left: 0.4rem;
+}
+
+.aside__section--2:hover,
+.aside__section--3:hover,
+.aside__section--4:hover,
+.aside__section--5:hover,
+.aside__section--6:hover,
+.aside__section--7:hover,
+.aside__section--8:hover,
+.aside__section--9:hover{
+    background-color: #F2F2F2;
+    border-radius: 1rem;
+}
+
+.aside__section--2 section,
+.aside__section--3 section{
+    margin-left: 1.1rem;
+}
+
+.aside__section--4{
+    padding-left: 1rem;
+    font-weight: 600;
+}
+
+.aside__section--5 section{
+    margin-left: 1rem;
+}
+
+.aside__section--img9{
+    margin-left: 0.5rem;
+}
+
+.aside__section--9 section{
+    margin-left: 1.1rem;
+}
+
+
+.aside__third{
+    margin-top: 1rem;
+}
+
+.aside__third p{   
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 700;  
+}
+
+.aside__third--section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4.5rem;
+    gap: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.aside__third--section:hover{   
+    background-color: #F2F2F2;
+    border-radius: 1rem;    
+}
+
+
+.layout__main{
+    width: 84%;
+    margin-left: 1rem;
+    /*border: 1px solid black;*/
+}
+
+.main__header{
+    /*margin-top: 1rem;*/
+    display: flex;
+    gap: 1rem;
+}
+
+.main__header span{
+    background-color: #EAEAEA;
+    border-radius: 0.8rem;
+    padding: 0.8rem;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 700;
+    transition: all 300ms ease;
+    cursor: pointer;    
+}
+
+.main__header span:hover{
+    background-color:  #c7c7c7;
+
+}
+
+.main__header span:first-child{
+    background-color: black;
+    color: white;
+}
+
+.main__section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 3rem 0rem 0rem;
+}
+
+.section__vid{
+    cursor: pointer;
+}
+
+.section__vid--4,
+.section__vid--5,
+.section__vid--6{
+    margin-top: 2.5rem;
+    transition: all 300ms ease;
+}
+
+.section__vid--1 img:hover,
+.section__vid--2 img:hover,
+.section__vid--3 img:hover,
+.section__vid--4 img:hover,
+.section__vid--5 img:hover,
+.section__vid--6 img:hover{
+    opacity: 0.5;
+    
+}
+
+.section__details{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.details__titles h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.details__titles p{
+    font-size: 1.3rem;
+    color: grey;
+   
+}
+
+
